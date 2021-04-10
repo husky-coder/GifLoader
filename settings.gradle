@@ -1,0 +1,2 @@
+rootProject.name='GifFrame'
+include ':app'
