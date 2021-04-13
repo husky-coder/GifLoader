@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 File file = new File(gifPath);
                 if (file.exists()) {
-                    Toast.makeText(context, "gif已经存在sd卡根目录！", Toast.LENGTH_SHORT).show();
+                    Log.d(TAG, "文件已经存在sd卡根目录！");
                     return;
                 }
 
